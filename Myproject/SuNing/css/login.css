@@ -1,0 +1,411 @@
+@charset "utf-8";
+
+html,
+body {
+    width: 100%;
+}
+
+.head {
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.tip {
+    height: 26px;
+    float: right;
+    color: #333;
+    background: #fefff1;
+    border: 1px solid #fecd66;
+    line-height: 26px;
+    font-size: 12px;
+    margin-top: 37px;
+}
+
+.top span {
+    color: red;
+}
+
+.advice {
+    margin-top: 5px;
+    color: #333;
+    float: right;
+    font-size: 12px;
+}
+
+.advice i {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: simsun;
+    background: url(../img/sprite.png) -67px -27px no-repeat;
+}
+
+#main {
+    height: 570px;
+    min-width: 970px;
+    background: url(../img/login_img.jpg) center no-repeat;
+    ;
+    margin: 0 auto;
+}
+
+.login {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.login-from {
+    float: right;
+    position: relative;
+    width: 360px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 0 2px #ececec;
+    font-family: "Microsoft Yahei";
+}
+
+.login-tab {
+    height: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+
+}
+
+.tab-item {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tab-item span {
+    display: block;
+    border-right: 1px solid #eee;
+    margin-top: 15px;
+    color: #333;
+}
+
+.tab-item i {
+    display: none;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #f60;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.on span {
+    color: #f60;
+}
+
+.on i {
+    display: block;
+
+}
+
+.tab-item:hover span {
+    color: #f60;
+}
+
+.pc-login {
+    width: 360px;
+    height: 241px;
+    display: none;
+}
+.pc-login-form{
+    padding: 40px 20px 0 25px;
+    
+}
+
+.username-box {
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.username-box input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+}
+.username-box label{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ccc;
+    cursor: text;
+    background: #fff;
+}
+.username-icon{
+    background: url(../img/sprite.png) -123px -67px no-repeat; 
+}
+.icon{  
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.password-box{
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+.password-box input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+}
+.password-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ccc;
+    cursor: text;
+    background: #fff;
+}
+.password-icon{
+    background: url(../img/sprite.png) 0 -108px no-repeat;
+}
+.login-help{
+    margin-top: 30px;
+    line-height: 35px;
+    height: 35px;
+    padding-top: 10px;
+
+}
+.login-switch{
+    float: left;
+    font-size: 12px;
+    color: #333;
+
+}
+.login-switch i{
+    background: url(../img/sprite.png) -21px -149px no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+}
+.forget-password{
+    float: right;
+    font-size: 12px;
+    color: #333;
+
+}
+.login-submit{
+    display: block;
+    width: 310px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #f60;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+
+}
+
+.scan-login {
+    /* display: none; */
+    text-align: center;
+    position: relative;
+}
+
+.qrcode {
+    width: 141px;
+    height: 141px;
+    margin: 42px auto;
+    transition: .3s all;
+    position: relative;
+}
+
+.open-app {
+    margin-bottom: 7px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+}
+
+.open-app i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: url(../img/sprite.png) -164px -67px no-repeat;
+    vertical-align: -3px;
+}
+
+.open-app span {
+    color: #f60;
+}
+
+.free-reg {
+    text-align: center;
+    margin: 12px 0 35px;
+}
+
+.free-reg a {
+    font-size: 12px;
+    color: #f60;
+
+}
+
+.bind-login {
+    position: relative;
+    width: 310px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding: 19px 0 17px;
+}
+
+.title {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    margin-left: -64px;
+    color: #999;
+    font-size: 12px;
+    width: 128px;
+    background: #fff;
+    text-align: center;
+}
+
+.common a {
+    float: left;
+    color: #333;
+    padding: 0 7px;
+    border-right: 1px solid #dedcd5;
+    line-height: 16px;
+}
+
+.qq i {
+    background: url(../img/sprite.png) -140px -108px no-repeat;
+}
+
+.common {
+    margin-bottom: 20px;
+}
+
+.common i {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.weixin i {
+    background: url(../img/sprite.png) -90px -27px no-repeat;
+}
+
+.yifubao i {
+    background: url(../img/sprite.png) -119px -108px no-repeat;
+}
+
+.weibo i {
+    background: url(../img/sprite.png) 0 -149px no-repeat;
+}
+
+
+#nav-bot {
+    width: 100%;
+    background: #FFF;
+}
+
+.nav-bot-con {
+    width: 1190px;
+    min-width: 1190px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+}
+
+.nav-bot-list {
+    height: 25px;
+    line-height: 25px;
+}
+
+.nav-bot-list a {
+    font-size: 12px;
+    color: #666;
+}
+
+.nav-bot-list span {
+    font-size: 12px;
+    color: #888;
+    padding: 0 8px;
+}
+
+.nav-bot-copyright {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+}
+
+.nav-bot-copyright a {
+    font-size: 12px;
+    color: #999;
+    position: relative;
+
+}
+
+.nav-bot-copyright i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/gwab-icon.png) 0 0 no-repeat;
+}
+
+.nav-img img {
+    display: inline-block;
+    margin-right: 8px;
+
+}
