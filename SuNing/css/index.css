@@ -1,0 +1,1183 @@
+@charset "utf-8";
+body {
+    background: #f2f2f2;
+}
+html,
+body {
+    width: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 36px;
+    background: #f5f5f5;
+}
+.top-con {
+    min-width: 1190px;
+    width: 1190px;
+    height: 36px;
+    margin: 0 auto;
+}
+.top-left {
+    float: left;
+}
+
+.top-left>a {
+    line-height: 36px;
+    color: #666;
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.top-bar {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+
+.top-bar-box1 {
+    width: 988px;
+    padding: 20px 0;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    border: 1px solid #ddd;
+    background: #fff;
+    z-index: 999;
+}
+.bar-list {
+    float: left;
+    width: 176px;
+    border-right: 1px solid #eee;
+    padding-left: 20px;
+}
+
+.bar-list:nth-of-type(5) {
+    border-right: none;
+}
+
+.bar-list dt {
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    line-height: 17px;
+}
+
+.bar-list dd {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bar-list dd p {
+    float: left;
+    height: 25px;
+    width: 78px;
+    line-height: 25px;
+}
+.bar-list dd p a {
+    position: relative;
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+}
+.top-bar>a {
+    line-height: 35px;
+    color: #666;
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+.bar-list1{
+    left: 0;
+    right: 0;
+    width: 162px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 36px;
+    border: 1px solid #ddd;
+    background: #fff;
+    z-index: 999;
+    
+}
+.bar-list1 a{
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    width: 71px;
+    font-size: 12px;
+    float: left;
+    color: #666;
+}
+.top-left a:hover {
+    color: #f60;
+}
+
+.top-left i {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.top-right {
+    float: right;
+}
+.username {
+    display: none;
+}
+.outlogin{
+    display: none;
+}
+.top-right>a {
+    line-height: 35px;
+    color: #666;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.r-box{
+    width: 81px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    left: 0;
+    margin-left: -1px;
+    display: none;
+    border-top: 1px solid #fff;
+}
+.r-box a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 71px; 
+    color: #333;
+    font-size: 12px;
+}
+.top-right a:hover {
+    color: #f60;
+}
+.sn-top-bar{
+    display: none;
+}
+.top-bar:hover .sn-top-bar{
+    display: block;
+}
+.top-bar:hover {
+    display: block;
+    background: white;
+
+}
+
+#search {
+    width: 100%;
+    height: 110px;
+    background: white;
+}
+
+.search-con {
+    width: 1190px;
+    height: 110px;
+    margin: 0 auto;
+    background: white;
+}
+
+.logo {
+    width: 190px;
+    height: 110px;
+    float: left;
+}
+
+.attention {
+    width: 66px;
+    height: 24px;
+    background: #fa0;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 24px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 38px 0 0 30px;
+    float: left;
+    color: #fff;
+}
+
+.attention>em {
+    float: left;
+    width: 20px;
+    height: 17px;
+    margin: 4px 4px 3px 10px;
+    background: url(../img/focus.png) no-repeat;
+}
+
+.search-middle {
+    float: left;
+    width: 550px;
+    height: 110px;
+    margin-left: 114px;
+}
+
+.search-box {
+    margin-top: 30px;
+    width: 550px;
+    height: 38px;
+    border: 1px solid #e42e3c;
+}
+
+.fa-search {
+    float: left;
+    width: 36px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #BBB;
+}
+
+.search-input {
+    width: 404px;
+    padding: 12px 10px 8px 0;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 0;
+    background: #FFF;
+    color: #BBB;
+    font-size: 12px;
+    float: left;
+    border: none;
+    font-family: 'MicroSoft YaHei';
+}
+
+.search-sumbit {
+    background: #e42e3c;
+    outline: none;
+    width: 100px;
+    height: 39px;
+    margin-top: -1px;
+    font-size: 14px;
+    font-family: 'MicroSoft YaHei';
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-indent: 2px;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.search-code {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 20px 0 0 65px;
+}
+
+.sn-keyword {
+    float: left;
+    width: 100%;
+    height: 18px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.sn-keyword>a {
+    float: left;
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 3px 0 3px -11px;
+    padding: 0 20px 0 10px;
+    border-left: 1px solid #ddd;
+    height: 12px;
+    line-height: 12px;
+    color: #999;
+}
+
+.sn-keyword a:hover {
+    color: red;
+}
+
+#nav {
+    width: 100%;
+    background: white;
+}
+
+.nav-con {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 38px;
+    min-width: 1190px;
+    background: white;
+}
+
+.nav-sort {
+    width: 240px;
+    float: left;
+    background: #e42e3c;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 12px 12px 0 0;
+    font-size: 14px;
+    color: #FFF !important;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fa-list-ul {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.nav-keyword {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-keyword>a {
+    height: 38px;
+    padding: 0 8px 0 13px;
+    line-height: 38px;
+    float: left;
+    color: #333;
+    font-size: 15px;
+}
+
+.nav-keyword>a>span {
+    font-size: 12px;
+    color: BBB;
+    display: inline;
+    line-height: 38px;
+    margin-left: 20px;
+}
+
+.nav-keyword a:hover {
+    color: red;
+}
+
+.nav-keyword a:hover span {
+    color: #BBB;
+}
+
+/* 轮播图*/
+.banner {
+    width: 100%;
+    height: 438px;
+    position: relative;
+}
+
+.banner-con {
+    margin: 0 auto;
+    width: 1190px;
+    height: 438px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.banner>img {
+    z-index: 0;
+    opacity: 0;
+    height: 438px;
+    width: 100%;
+    min-width: 1190px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    transition: all 1.2s;
+}
+.banner:hover .point{
+    display: block;
+
+}
+.left-arrow{
+    left: 50%;
+    margin-left: -350px;
+}
+.point{
+    position: absolute;
+    top: 159px;
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000;
+    text-align: center;
+    opacity: .2;
+    z-index: 100;
+    display: none;
+}
+.right-arrow{
+    right: 50%;
+    margin-right: -398px;
+}
+.left-arrow>i{
+    background-position: -184px -62px;
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    vertical-align: middle;
+    background-image: url(../img/sptt.png);
+}
+.right-arrow>i{
+    background-image: url(../img/sptt.png); 
+    background-position: -184px 0;
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    vertical-align: middle;
+
+}
+.banner-nav-wrapper{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 4px;
+    text-align: center;
+    font-size: 0;
+    z-index: 100;
+}
+.banner-nav{
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    padding-left: 8px;
+
+}
+.page-item{
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 2px;
+    width: 22px;
+    height: 4px;
+    background-color: #8f061f;
+    opacity: .6;
+
+}
+.nav-wrapper {
+    position: absolute;
+    width: 240px;
+    height: 438px;
+    left: 0;
+    z-index: 200;
+    background: aqua;
+}
+
+.wrap-item {
+    position: relative;
+    width: 197px;
+    height: 73px;
+    font-size: 12px;
+    padding-left: 43px;
+    background: #fff;
+}
+
+.wrap-icon {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 16px;
+
+}
+
+.wrap-icon1 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -1035px -26px;
+
+}
+
+.wrap-icon2 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -931px -26px;
+}
+
+.wrap-icon3 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -957px -26px;
+}
+
+.wrap-icon4 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -1114px 0;
+}
+
+.wrap-icon5 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -1009px -26px;
+}
+
+.wrap-icon6 {
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -1087px 0;
+}
+
+.wrap-item-title {
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 197px;
+    overflow: hidden;
+    font-size: 12px;
+    zoom: 1;
+}
+
+.wrap-item-title a {
+    float: left;
+    color: #666;
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.arrow {
+    float: right;
+    width: 8px;
+    height: 13px;
+    margin-top: 1px;
+    margin-right: 13px;
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -905px -26px;
+}
+
+.wrap-item-list {
+    width: 193px;
+    height: 17px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    font-size: 12px;
+}
+
+.wrap-item-list a {
+    float: left;
+    height: 17px;
+    color: #666;
+    padding-right: 10px;
+}
+
+.new-top {
+    width: 182px;
+    height: 182px;
+    background: #eee;
+    position: absolute;
+    top: 10px;
+    background: url(../img/sptt.png) no-repeat;
+    /* background-position: ; */
+    z-index: 200;
+    right: 0;
+}
+
+.new-bot {
+    width: 212px;
+    height: 218px;
+    position: absolute;
+    top: 210px;
+    right: -30px;
+    z-index: 200;
+}
+
+.words {
+    width: 182px;
+    margin-top: 90px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.words>ul {
+    margin-left: 20px;
+
+}
+
+.words>ul>li>a>p {
+    text-indent: 1em;
+
+}
+
+.words ul>li>a>em {
+    position: absolute;
+    display: block;
+    top: 5px;
+    float: left;
+    width: 3px;
+    height: 3px;
+    z-index: 300;
+    background: #ccc;
+}
+
+.words>ul>li {
+    position: relative;
+    margin-top: 5px;
+    float: left;
+}
+
+#main-title {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.main-title-con {
+    position: relative;
+    width: 1190px;
+    margin: 20px auto 10px;
+    text-align: center;
+}
+
+.title-lg {
+    display: inline-block;
+    height: 45px;
+    color: #222;
+    font: 32px/45px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    margin-bottom: 8px;
+    letter-spacing: 15px;
+    text-indent: 15px;
+}
+
+.title-sm {
+    color: #999;
+    font: 14px/22px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    letter-spacing: 1px;
+}
+
+#main-list {
+    width: 100%;
+}
+
+.main-icon {
+    width: 1190px;
+    height: 88px;
+    margin-bottom: 10px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-icon ul li {
+    float: left;
+    width: 97px;
+    height: 86px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.icon-1 {
+    width: 26px;
+    height: 28px;
+    margin-left: 35px;
+    margin-top: 24px;
+    margin-bottom: 9px;
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -318px -28px;
+}
+
+.icon-name {
+    width: 97px;
+    height: 16px;
+    color: #444;
+    text-align: center;
+    font: 12px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+
+.main-icon ul li:nth-of-type(1) {
+    background: red;
+    color: white;
+}
+
+.main-icon ul li:hover {
+    border: 1px solid red;
+    color: red;
+    background-position: -374px -28px;
+}
+
+.main-icon ul li:hover .icon-1 {
+    background-position: -374px -28px;
+}
+
+.main-list-con {
+    width: 1190px;
+    margin: 0 auto;
+    /* height: 600px; */
+    overflow: hidden;
+    margin-top: 10px;
+    background: #eee;
+}
+
+.main-list-con img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 20px 16px 0 25px;
+}
+.main-list-con li:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .main-list-con li:hover .main_list_des{
+    color: #e42e3c;
+  }
+
+.main-list-con ul {
+    margin-right: -10px;
+}
+
+.main-list-con ul li {
+    float: left;
+    position: relative;
+    width: 230px;
+    height: 295px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.main_list_des {
+    color: #333;
+    width: 140px;
+    height: 40px;
+    font: 12px/20px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    letter-spacing: 1.17px;
+    margin-top: 5px;
+}
+
+.main_list_price {
+    font: 12px/25px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    margin-left: 45px;
+    color: #e42e3c;
+
+}
+
+.main_list_price span {
+    color: #e42e3c;
+
+}
+
+.main_list_price em {
+    font-size: 14px;
+    color: #e42e3c;
+
+}
+
+.car-btn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -931px 0;
+    right: 41px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+#super-mall {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.super-mall-con {
+    position: relative;
+    width: 1190px;
+    margin: 20px auto 10px;
+    text-align: center;
+}
+
+.super-lg {
+    display: inline-block;
+    height: 45px;
+    color: #222;
+    font: 32px/45px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    margin-bottom: 8px;
+    letter-spacing: 15px;
+    text-indent: 15px;
+}
+
+.super-sm {
+    color: #999;
+    font: 14px/22px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    letter-spacing: 1px;
+}
+
+/* 苏宁生鲜 */
+#super-box {
+    width: 100%;
+}
+
+.super-con {
+    position: relative;
+    width: 1190px;
+    height: 637px;
+    margin: 25px auto 10px;
+    overflow: hidden;
+}
+
+.super-title {
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 12px;
+}
+
+.su-icon {
+    float: left;
+    width: 5px;
+    height: 18px;
+    background: #e42e3c;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+.su-name {
+    float: left;
+}
+
+.su-name>title {
+    float: left;
+    font: 18px/25px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    color: #222;
+    letter-spacing: 1.8px;
+    margin-right: 12px;
+}
+
+.soma {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.ma {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -1061px -26px;
+}
+
+.large-ma {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 0;
+    top: 30px;
+    padding: 5px;
+    z-index: 100;
+    background: #fff;
+    display: none;
+
+}
+
+.soma:hover .large-ma {
+    display: block;
+}
+
+.large-ma img {
+    width: 108px;
+    height: 108px;
+}
+
+.super-large {
+    float: left;
+    position: relative;
+    width: 231px;
+    height: 600px;
+    background: #ddd;
+}
+
+.super-large>a>img {
+    position: absolute;
+    width: 231px;
+    height: 600px;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.su-card {
+    position: absolute;
+    width: 196px;
+    height: 130px;
+    top: 40px;
+    left: 20px;
+}
+
+.su-card ul {
+    margin-right: -10px;
+}
+
+.su-card ul li {
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font: 12px/24px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    float: left;
+    max-width: 84px;
+    height: 24px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .2);
+}
+
+.su-card ul li a {
+    color: white;
+}
+
+.super-list {
+    float: left;
+    width: 959px;
+    height: 600px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.super-list ul {
+    float: left;
+    margin-right: -10px;
+
+}
+
+.super-list ul li {
+    float: left;
+    position: relative;
+    width: 230px;
+    height: 295px;
+    background: #fff;
+    margin: 0 0 10px 10px;
+    overflow: hidden;
+}
+.super-list li:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+.super-list li:hover .super_list_des {
+    color: #e42e3c;
+  }
+
+.super-list ul li img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 20px 25px 10px;
+}
+
+.super_list_des {
+    color: #333;
+    width: 140px;
+    height: 40px;
+    font: 12px/20px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    letter-spacing: 1.17px;
+}
+
+.super_list_price {
+    height: 25px;
+    font: 12px/25px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    margin-left: 45px;
+}
+
+.super_list_price span {
+    color: #e42e3c;
+
+}
+
+.super_list_price em {
+    color: #e42e3c;
+
+}
+
+.super-car {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../img/chaoshi.png) no-repeat;
+    background-position: -931px 0;
+    bottom: 15px;
+    right: 45px;
+    cursor: pointer;
+
+}
+
+
+/* 底部导航栏 */
+#nav-top {
+    margin-top: 20px;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.nav-primise {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 12px 0;
+    height: 73px;
+    cursor: pointer;
+    line-height: 24px;
+    color: #545454;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.nav-primise dd {
+    width: 180px;
+    float: left;
+    height: 48px;
+
+}
+
+.nav-primise dt {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+
+.nav-primise p strong {
+    font-weight: 700;
+    color: #222;
+    font-size: 14px;
+}
+
+.nav-primise p {
+    color: #222;
+    font-size: 12px;
+}
+
+.nav-primise dd p {
+    line-height: 24px;
+    width: 100%;
+    color: #545454;
+}
+
+.nav-help {
+    width: 1190px;
+    height: 180px;
+    margin: 0 auto;
+    font-family: "Microsoft Yahei";
+}
+
+.nav-help dl {
+    width: 210px;
+    float: left;
+    height: 160px;
+    cursor: pointer;
+}
+
+.nav-help dt {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+
+.nav-help dd {
+    width: 210px;
+    color: #545454;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.nav-help dd:hover {
+    color: red;
+}
+
+.sn-heart p {
+    color: #545454;
+    font-size: 12px;
+}
+
+.sn-heart strong {
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 130px;
+    float: left;
+}
+
+#nav-bot {
+    width: 100%;
+    background: #FFF;
+}
+
+.nav-bot-con {
+    width: 1190px;
+    min-width: 1190px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+}
+
+.nav-bot-list {
+    height: 25px;
+    line-height: 25px;
+}
+
+.nav-bot-list a {
+    font-size: 12px;
+    color: #666;
+}
+
+.nav-bot-list span {
+    font-size: 12px;
+    color: #888;
+    padding: 0 8px;
+}
+
+.nav-bot-copyright {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+}
+
+.nav-bot-copyright a {
+    font-size: 12px;
+    color: #999;
+    position: relative;
+
+}
+
+.nav-bot-copyright i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/gwab-icon.png) 0 0 no-repeat;
+}
+
+.nav-img img {
+    display: inline-block;
+    margin-right: 8px;
+
+}
